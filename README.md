@@ -6,12 +6,12 @@ Nosso objetivo era recriar uma versão multiplayer de 2 jogadores do clássico j
 ![menu](https://github.com/user-attachments/assets/b331b2f1-3ebe-45bf-9e36-512ff20d79e1)
 
 Para a construção da parte física do nosso projeto, utilizamos as seguintes peças:
->Potenciômetro (2 no total, ligados no shield): Funcionam como joysticks, cada um controlando um dos jogadores (as barras do jogo).
->Botão (1 no total, ligado no shield): Funciona para iniciar e parar o jogo.
->LED (1 no total, ligado diretamente no Arduino): Indica quando o jogo está ligado. Ao apertar o botão para iniciar o jogo, o LED acende, e ao apertar para desligar, o LED apaga.
->LDR (1 no total, junto de 1 resistor, conectado na Protoboard): Funciona para mudar o modo de contraste do jogo. Em ambientes muito iluminados, entrará no dark mode, em ambientes escuros, entrará no light mode.
->Protoboard (junto de vários jumpers): Com várias conexões feitas, é necessário o uso da protoboard para estender o uso das portas do Arduino, possibilitando maior liberdade na prototipação.
->Arduino Uno (óbvio): A peça principal desse processo inteiro.
+- Potenciômetro (2 no total, ligados no shield): Funcionam como joysticks, cada um controlando um dos jogadores (as barras do jogo).
+- Botão (1 no total, ligado no shield): Funciona para iniciar e parar o jogo.
+- LED (1 no total, ligado diretamente no Arduino): Indica quando o jogo está ligado. Ao apertar o botão para iniciar o jogo, o LED acende, e ao apertar para desligar, o LED apaga.
+- LDR (1 no total, junto de 1 resistor, conectado na Protoboard): Funciona para mudar o modo de contraste do jogo. Em ambientes muito iluminados, entrará no dark mode, em ambientes escuros, entrará no light mode.
+- Protoboard (junto de vários jumpers): Com várias conexões feitas, é necessário o uso da protoboard para estender o uso das portas do Arduino, possibilitando maior liberdade na prototipação.
+- Arduino Uno (óbvio): A peça principal desse processo inteiro.
 
 Optamos também por utilizar um shield em cima do Arduino, para conectar os dois potenciômetros e o botão, já que serão as peças que os jogadores mais terão contato e as que apresentaram maior problemas de mau contato ao longo do processo de prototipação. Eles foram conectados da seguinte forma:
 ![Placa](https://github.com/user-attachments/assets/b895cdd8-d4b7-4529-8780-7bcd0cfe5664) 
